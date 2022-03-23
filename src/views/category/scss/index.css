@@ -1,0 +1,60 @@
+::v-deep .van-search .van-field__left-icon {
+  margin-left: 24%;
+}
+
+.title {
+  display: flex;
+}
+
+.title .left {
+  width: 81px;
+}
+
+.title .left .tagtit {
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 45px;
+  width: 81px;
+  height: 45px;
+  font-size: 14px;
+}
+
+.title .left .active {
+  color: #ab2b2b;
+  font-size: 18px;
+  border-left: 3px solid #ab2b2b;
+}
+
+.title .right {
+  border-left: .01333rem solid #fafafa;
+  overflow: hidden;
+  padding: 0 .4rem 0 .4rem;
+}
+
+.title .right .ri-top {
+  margin-top: 14.4px;
+  width: 100%;
+}
+
+.title .right .ri-top img {
+  display: block;
+  width: 100%;
+}
+
+.title .right .ri-bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.title .right .ri-bottom ul li {
+  width: 33.33%;
+  margin-bottom: 10px;
+}
+
+.title .right .ri-bottom ul li img {
+  height: 72px;
+  width: 72px;
+  display: block;
+  margin: 0 auto;
+}
